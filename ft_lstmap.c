@@ -6,7 +6,7 @@
 /*   By: aitormar <aitormar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/03 12:17:46 by aitormar          #+#    #+#             */
-/*   Updated: 2024/09/03 12:33:45 by aitormar         ###   ########.fr       */
+/*   Updated: 2024/11/13 12:14:22 by aitormar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		if (!auxres->next)
 			ft_lstclear(&aux, del);
 		aux = aux->content;
-		auxres->next;
+		auxres = auxres->next;
 	}
 	return (res);
 }

@@ -6,7 +6,7 @@
 /*   By: aitormar <aitormar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/27 10:03:02 by aitormar          #+#    #+#             */
-/*   Updated: 2024/07/27 10:03:03 by aitormar         ###   ########.fr       */
+/*   Updated: 2024/09/18 13:26:57 by aitormar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,3 +100,27 @@ char	**ft_split(char const *s, char c)
 	res = ft_fillsplit(s, c, res, wordquantity);
 	return (res);
 }
+
+// int main(void)
+// {
+// 	char	**pr;
+// 	int		i;
+// 	char	*str = "El mundo esta loco, encima me pones estos colores más feos y horribles.";
+
+// 	pr = ft_split(str, ' ');
+
+// 	i = 0;
+// 	while (pr[i])
+// 	{
+// 		printf("%s\n", pr[i]);
+// 		i += 1;
+// 	}
+
+// 	i = 0;
+// 	while (pr[i])
+// 	{
+// 		free(pr[i]);
+// 		i += 1;
+// 	}
+// 	free(pr);
+// }
