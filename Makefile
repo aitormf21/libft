@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: aitormar <aitormar@student.42.fr>          +#+  +:+       +#+         #
+#    By: aitor <aitor@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/07/20 13:24:18 by aitormar          #+#    #+#              #
-#    Updated: 2024/09/02 17:36:13 by aitormar         ###   ########.fr        #
+#    Updated: 2025/03/03 11:16:35 by aitor            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,6 +46,11 @@ MY_SOURCES = ft_isalpha.c\
 						ft_putendl_fd.c\
 						ft_putnbr_fd.c\
 						ft_split.c\
+						ft_strchr_gnl.c\
+						get_next_line.c\
+						ft_strjoin_gnl.c\
+						ft_free_and_null.c\
+						ft_calloc_gnl.c\
 
 MY_BONUS_SOURCES = ft_lstnew.c\
 						ft_lstadd_front.c\
